@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.reactClientReferencesPlugin = void 0;
+exports.reactClientReferencesPlugin = reactClientReferencesPlugin;
 /**
  * Copyright © 2024 650 Industries.
  */
@@ -173,7 +173,6 @@ function reactClientReferencesPlugin(api) {
         },
     };
 }
-exports.reactClientReferencesPlugin = reactClientReferencesPlugin;
 function assertExpoMetadata(metadata) {
     if (metadata && typeof metadata === 'object') {
         return;
